@@ -88,7 +88,7 @@ Module({
         fs.mkdirSync("./temp/tts")
     }
     query = query.replace("tts","")
-    var lng = 'en';
+    var lng = 'ml';
     if (/[\u0D00-\u0D7F]+/.test(query)) lng = 'ml';
     let
         LANG = lng,
